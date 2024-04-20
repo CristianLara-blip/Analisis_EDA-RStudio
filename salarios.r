@@ -20,7 +20,7 @@ any(!complete.cases(Salaries))
 # Suponiendo que tu conjunto de datos se llama "data" y la columna de rangos académicos se llama "rank"
 unique_ranks <- unique(Salaries$rank)
 num_unique_ranks <- length(unique_ranks)
-print(num_unique_ranks)
+cat("Número de rangos:", num_unique_ranks, "\n", "Rangos:", unique_ranks, "\n")
 
 # Análisis descriptivo
 summary(Salaries)
